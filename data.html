@@ -19,24 +19,29 @@
     <body>
         <section class="second-hero-section">
             <header>
-                <nav class="top-nav">
-                <div class="nav-logo">
-                    <img src="assets/images/logo.png" alt="logo" />
-                    <h2>Sage</h2>
-                    <h3>Academy</h3>
-                </div>
-        
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="" class="active">Schools</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">FAQ's</a></li>
-                    
-                </ul>
-        
-                <div class="clear"></div>
-                </nav>
-            </header>
+            <nav class="top-nav">
+            <div class="nav-logo">
+                <a href="index.html">
+                <img src="assets/images/logo.png" alt="logo" />
+            </a>
+            </div>
+           
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" >Home</a></li>
+                <li class="nav-item"><a href="" class="active">Schools</a></li>
+                <li class="nav-item"><a href="">About Us</a></li>
+                <li class="nav-item"><a href="">FAQ's</a></li>
+                
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+           
+            <div class="clear"></div>
+            </nav>
+        </header>
             <div class="second-hero-contect">
             
                 <h1 class="animated-text">
@@ -56,13 +61,17 @@
             </div>
         </section>
         <section class="data-behave-body" >
+            <div  class="behave-body-data"> 
             <div class="second-beahead-div" > 
                 <div class="beahead-content"> 
                     <div class="beahead-content-left beahead-mission-img">
+                        <div class="first"> 
                         <img src="assets/Images/beahead-content.png" alt="illustration-one" />
                     </div>
+                    </div>
                     <div class="data-content-right">
-                        <div>
+
+                        <div class="first">
                             <h1>Know what you’re getting into</h1>
                             <p class="beahead-mission">
                                 Data engineers are expected to know how to build and maintain database systems, be fluent in programming languages such as SQL, Python, and R, 
@@ -74,34 +83,56 @@
                     </div>
                 </div>
             </div>
+            </div>
 
         </section>
         <section class="future-content-two">
+            <div class="tab-controller"> 
             
                 <h1>Select your specialized course</h1>
                 <p>We have a series of programming courses, choose the one you will want to study</p>
 
-                <div class="data-tabs_wrap">
+                <div class="data_tabs_wrap">
                     <ul>
-                      <li data-tabs="frontend-engineering" class="active">Data Engineering</li>
-                      <li data-tabs="backend-engineering">Data Analysis</li>
-                      <li data-tabs="cloud-engineering">Data Science</li>
+                      <li data-tabs="data_engineering" class="active">Data Engineering</li>
+                      <li data-tabs="data_analysis">Data Analysis</li>
+                      <li data-tabs="data_science">Data Science</li>
                     </ul>
                   </div>
+                </div>
           
         </section>
         <section class="data-course-details">
             
-                <h1>Data Engineering</h1>
+            <h1 class="data_engineering" >Data Engineering</h1>
+            <h1 class="data_analysis" >Data Analysis</h1>
+            <h1 class="data_science" >Data Science</h1>
            
             <div class="future-div"> 
                 <div class="future-content"> 
                     <div class="future-content-left future-mission-img">
-                        <img src="assets/images/datacourseimg.png" alt="illustration-one" />
+                        <div class="data_engineering">
+                            <img src="assets/images/datacourseimg.png" alt="illustration-one" />
                         </div>
+                        <div class="data_analysis">
+                            <img src="assets/images/Rectangle 9 (4).png" alt="illustration-one" />
+                        </div>
+                        <div class="data_science">
+                            <img src="assets/Images/Rectangle 9 (2).png" alt="illustration-one" />
+                        </div>
+                    </div>
                     <div class="future-content-left">
                     <div class="course-details-text">
-                        <p class="future-mission">
+                        <p class="future-mission data_engineering" >
+                            A data engineer is a type of software engineer who creates big data ETL pipelines to manage the flow of data through the organization. This makes it possible to take huge amounts of data and translate it into insights
+                            To succeed in this program, you’ll need to have prerequisite knowledge of:<br>1. Structured Query Language,<br>2. Python programming language,<br> 3. Basic programming foundation.
+                        </p>
+                        <p class="future-mission data_analysis" >
+                            Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.<br>
+                            <br>1. Basic understanding of High school Mathematics
+                            <br>2. Basic computer literacy
+                        </p>
+                        <p class="future-mission data_science" >
                             A data engineer is a type of software engineer who creates big data ETL pipelines to manage the flow of data through the organization. This makes it possible to take huge amounts of data and translate it into insights
                             To succeed in this program, you’ll need to have prerequisite knowledge of:<br>1. Structured Query Language,<br>2. Python programming language,<br> 3. Basic programming foundation.
                         </p>
@@ -111,10 +142,11 @@
                 </div>
             </div>
         </section>
-        <section class="course-list">
+        <section class="course-list-data">
             <div class="course-list-div"> 
                     <div class="pricing-table">
-                      <div class="data-pricingbox">
+
+                      <div class="data-pricingbox data_engineering">
                         <div class="data-Price">
                             <h3>Data Engineering</h3>
                             <p>You will learn in-depth information on topics in this training</p>
@@ -135,6 +167,52 @@
                         <li>Apache Spark</li>
                         </ul>
                       </div>
+
+
+                      <div class="data-pricingbox data_analysis">
+                        <div class="data-Price">
+                            <h3>Data Analysis</h3>
+                            <p>You will learn in-depth information on topics in this training</p>
+                            </div>
+                        <ul>
+                            <li>Fundamental statistical principles for decision making.</li>
+                            <li>Spreadsheets (using Excel/Google Sheets).</li>
+                            <li>Relational databases</li>
+                            <li>Styled components and Storybook</li>
+                            <li>No-SQL or object-oriented databases</li>
+                            <li>Introduction to RDBMS (MySQL, PostgreSQL)</li>
+                            <li>Extracting information from databases using SQL.</li>
+                            <li>Presentations and Storytelling (Google Slides/ Powerpoint)</li>
+                            <li>Principles of data visualization</li>
+                            <li>Data visualization (Spreadsheets, Slides/Powerpoint, Tableau Public, PowerBI, Google Data Studio)</li>
+                         
+                        </ul>
+                      </div>
+
+                      <div class="data-pricingbox data_science">
+                        <div class="data-Price">
+                            <h3>Data Science</h3>
+                            <p>You will learn in-depth information on topics in this training</p>
+                            </div>
+                        <ul>
+                            <li>Data structures & algorithms</li>
+                            <li>Data Mining</li>
+                            <li>Data Cleaning</li>
+                            <li>Linear Regression (scikit)</li>
+                            <li>SNumpy & Scipy & Pandas & VisualizationQL</li>
+                            <li>Logistic Regression (scikit)</li>
+                            <li>Decision Trees/Forests (scikit)</li>
+                            <li>Ensembles</li>
+                            <li>Clustering</li>
+                            <li>Recommendation Systems</li>
+                            <li>Neural Networks (Keras)</li>
+                            <li>Feature Engineer (Theory/TF)</li>
+                            <li>Optimizers (Theory/TF)</li>
+                            <li>Learning Rates and Schedules/ (Theory/TF)</li>
+                            <li>Loss Functions (Theory/TF)</li>
+                        </ul>
+                      </div>
+
                     </div>
                     <button class="hero-btn">Apply now <i class="fas fa-arrow-right"></i></button>
             </div>
@@ -171,8 +249,9 @@
             <div class="beahead-body-more">
                 <div class="beahead-content-more"> 
                     <div class="beahead-content-right ">
+                        <div class="workmb"
                         <img src="assets/Images/data-hire.png" alt="illustration-one" />
-                       
+                       </div>
                     </div>
                     <div class="beahead-content-left beahead-mission-img">
 
@@ -198,8 +277,7 @@
             <div class="footer-item-container-right">
                 <div class="footer-item">
                     <div class="nav-logo">
-                        <img src="assets/images/logo.png" alt="logo" />
-                        <h3>Sage Academy</h3>
+                        <img src="assets/images/logo-ft.png" alt="logo" />
                     </div>
                     <ul class="footer-icon">
                         <li >
@@ -207,7 +285,7 @@
                           <a href="#" class="fa-brands fa-twitter"></a>
                         </li>
                       </ul>
-                    <p class="copy"> &copy; 2023 sageacademy</p>
+                    <p class="copy"> &copy; 2023 Thurisa's lab</p>
                 </div>
             </div>
 
@@ -247,7 +325,9 @@
     
         
     </section> 
+    <script src="./assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/92b98d96b0.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/data.js"></script>
     
 </body>
 </html>

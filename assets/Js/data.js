@@ -1,7 +1,7 @@
-var tabs = document.querySelectorAll(".tabs_wrap ul li");
-var frontend_engineerings = document.querySelectorAll(".frontend_engineering");
-var backend_engineerings = document.querySelectorAll(".backend_engineering");
-var cloud_engineerings = document.querySelectorAll(".cloud_engineering");
+var tabs = document.querySelectorAll(".data_tabs_wrap ul li");
+var data_engineerings = document.querySelectorAll(".data_engineering");
+var data_analysises = document.querySelectorAll(".data_analysis");
+var data_sciences = document.querySelectorAll(".data_science");
 var all = document.querySelectorAll(".pricingbox");
 
 tabs.forEach((tab)=>{
@@ -14,37 +14,37 @@ tabs.forEach((tab)=>{
     var tabval = tab.getAttribute("data-tabs");
     console.log(tabval);
 
-    if(tabval == "frontend_engineering"){
-        frontend_engineerings.forEach((frontend_engineering)=>{
-            frontend_engineering.style.display = "block";
+    if(tabval == "data_engineering"){
+        data_engineerings.forEach((data_engineering)=>{
+          data_engineering.style.display = "block";
       })
-      backend_engineerings.forEach((backend_engineering)=>{
-        backend_engineering.style.display = "none";
+      data_analysises.forEach((data_analysis)=>{
+        data_analysis.style.display = "none";
         })
-        cloud_engineerings.forEach((cloud_engineering)=>{
-            cloud_engineering.style.display = "none";
+        data_sciences.forEach((data_science)=>{
+          data_science.style.display = "none";
         })
     }
-    else if(tabval == "backend_engineering"){
-        frontend_engineerings.forEach((frontend_engineering)=>{
-            frontend_engineering.style.display = "none";
+    else if(tabval == "data_analysis"){
+        data_engineerings.forEach((data_engineering)=>{
+          data_engineering.style.display = "none";
       })
-      backend_engineerings.forEach((backend_engineering)=>{
-        backend_engineering.style.display = "block";
+      data_analysises.forEach((data_analysis)=>{
+        data_analysis.style.display = "block";
         })
-        cloud_engineerings.forEach((cloud_engineering)=>{
-            cloud_engineering.style.display = "none";
+        data_sciences.forEach((data_science)=>{
+          data_science.style.display = "none";
         })
     }
-    else if(tabval == "cloud_engineering"){
-        frontend_engineerings.forEach((frontend_engineering)=>{
-            frontend_engineering.style.display = "none";
+    else if(tabval == "data_science"){
+        data_engineerings.forEach((data_engineering)=>{
+          data_engineering.style.display = "none";
       })
-      backend_engineerings.forEach((backend_engineering)=>{
-        backend_engineering.style.display = "none";
+      data_analysises.forEach((data_analysis)=>{
+        data_analysis.style.display = "none";
         })
-        cloud_engineerings.forEach((cloud_engineering)=>{
-            cloud_engineering.style.display = "block";
+        data_sciences.forEach((data_science)=>{
+          data_science.style.display = "block";
         })
     }
     else{}
