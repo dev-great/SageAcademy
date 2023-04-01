@@ -1294,7 +1294,9 @@ input[type=submit]:hover {
   height: 60rem;
   width: 100%;
 }
-
+.workmb{
+  display: block;
+}
 
 /* About section  */
 .future-div {
@@ -1663,7 +1665,7 @@ font-size: 3px;
   background-repeat: no-repeat;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 60rem;
+  height: 100rem;
   width: 100%;
 }
 
@@ -1923,7 +1925,7 @@ align-items: center;
   background-size:auto;
   background-position: left;
   background-repeat: no-repeat;
-  height: 70rem;
+  height: 90rem;
   width: 100%;
 }
 
